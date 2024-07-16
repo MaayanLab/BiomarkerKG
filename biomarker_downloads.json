@@ -1,0 +1,104 @@
+{
+    "nodes": [
+
+        {
+            "node_type": "Anatomy",
+            "description": "Nodes from UBERON",
+            "nodes": 8,
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Anatomy.nodes.zip",
+            "size": "332 bytes"
+        },
+        {
+            "node_type": "Biomarker",
+            "description": "Nodes from BIOMARKER",
+            "nodes": 135338,
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Biomarker.nodes.zip",
+            "size": "1.2 MB"
+        },
+        {
+            "node_type": "Compound",
+            "description": "Nodes from PUBCHEM",
+            "nodes": 49,
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Compound.nodes.zip",
+            "size": "871 bytes"
+        },
+        {
+            "node_type": "Condition",
+            "description": "Nodes from DOID",
+            "nodes": 403,
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Condition.nodes.zip",
+            "size": "5 KB"
+        },
+        {
+            "node_type": "Gene",
+            "description": "Nodes from NCBI",
+            "nodes": 1,
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Gene.nodes.zip",
+            "size": "242 bytes"
+        },
+        {
+            "node_type": "Role",
+            "description": "Nodes from OBCI",
+            "nodes": 4,
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Role.nodes.zip",
+            "size": "276 bytes"
+        },
+        {
+            "node_type": "Variant",
+            "description": "Nodes from DBSNP",
+            "nodes": 133709,
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Variant.nodes.zip",
+            "size": "765 bytes"
+        }
+    ],
+    "edges":[
+        {
+            "source": "Biomarker",
+            "relation": "determined_using_sample_from",
+            "target": "Anatomy",
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Anatomy.edges.zip",
+            "size": "1 KB",
+            "edges": 115
+        },
+        {
+            "source": "Biomarker",
+            "relation": "indicated_by_above_normal_level_of, indicated_by_below_normal_level_of_(Compound)",
+            "target": "Compound",
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Compound.edges.zip",
+            "size": "1 KB",
+            "edges": 49
+        },
+        {
+            "source": "Biomarker",
+            "relation": "diagnostic_for, indicates_risk_of_developing, prognostic_for",
+            "target": "Condition",
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Condition.edges.zip",
+            "size": "589 KB",
+            "edges": 182914
+        },
+        {
+            "source": "Biomarker",
+            "relation": "indicated_by_below_normal_level_of_(Gene)",
+            "target": "Gene",
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Gene.edges.zip",
+            "size": "397 KB",
+            "edges": 1
+        },
+        {
+            "source": "Biomarker",
+            "relation": "has_best_classification",
+            "target": "Role",
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Role.edges.zip",
+            "size": "347 KB",
+            "edges": 135536
+        },
+        {
+            "source": "Biomarker",
+            "relation": "indicated_by_presence_of",
+            "target": "Variant",
+            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Variant.edges.zip",
+            "size": "1 MB",
+            "edges": 133710
+        }
+    ]
+}
