@@ -9,12 +9,12 @@ WIP
 ### Processed Datasets Included in Enrichr-KG
 | Entity    | Description        |   Nodes |   Edges | Relations                                                                         |
 |:----------|:-------------------|--------:|--------:|:----------------------------------------------------------------------------------|
-| Anatomy   | nodes from UBERON  |       8 |     115 | determined_using_sample_from                                                      |
-| Compound  | nodes from PUBCHEM |      49 |      49 | indicated_by_above_normal_level_of, indicated_by_below_normal_level_of_(Compound) |
-| Condidion | nodes from DOID    |     403 |  182914 | diagnostic_for, indicates_risk_of_developing, prognostic_for                      |
-| Gene      | nodes from NCBI    |       1 |       1 | indicated_by_below_normal_level_of_(Gene)                                         |
-| Role      | nodes from OBCI    |       4 |  135536 | has_best_classification                                                           |
-| Variant   | nodes from DBSNP   |  133709 |  133710 | indicated_by_presence_of                                                          |
+| Anatomy   | nodes from UBERON  |       8 |     115 | <div align="right">determined_using_sample_from                                                      |
+| Compound  | nodes from PUBCHEM |      49 |      49 | <div align="right">indicated_by_above_normal_level_of, indicated_by_below_normal_level_of_(Compound) |
+| Condidion | nodes from DOID    |     403 |  182914 | <div align="right">diagnostic_for, indicates_risk_of_developing, prognostic_for                      |
+| Gene      | nodes from NCBI    |       1 |       1 | <div align="right">indicated_by_below_normal_level_of_(Gene)                                         |
+| Role      | nodes from OBCI    |       4 |  135536 | <div align="right">has_best_classification                                                           |
+| Variant   | nodes from DBSNP   |  133709 |  133710 | <div align="right">indicated_by_presence_of                                                          |
 
 ## Tutorials
 
