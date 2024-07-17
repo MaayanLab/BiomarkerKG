@@ -7,14 +7,14 @@ WIP
 
 
 ### Biological Entities Included in Biomarker-KG
-| Entity    | Description        |   Nodes |   Edges |                                      Relations|
-|:----------|:-------------------|--------:|--------:|----------------------------------------------------------------------------------:|
+| Entity      | Description        |     Nodes |     Edges |                                      Relations|
+|:----------|:-------------------|----------:|----------:|------------------------------------------------------------------------------------:|
 | Anatomy   | nodes from UBERON  |       8 |     115 | "determined\_using\_sample\_from"                                                      |
-| Compound  | nodes from PUBCHEM |      49 |      49 | "indicated_by_above_normal_level_of", "indicated_by_below_normal_level_of_(Compound)" |
-| Condidion | nodes from DOID    |     403 |  182914 | "diagnostic_for", "indicates_risk_of_developing", "prognostic_for"                      |
-| Gene      | nodes from NCBI    |       1 |       1 | "indicated_by_below_normal_level_of_(Gene)"                                         |
-| Role      | nodes from OBCI    |       4 |  135536 | "has_best_classification"                                                           |
-| Variant   | nodes from DBSNP   |  133709 |  133710 | "indicated_by_presence_of"                                                          |
+| Compound  | nodes from PUBCHEM |      49 |      49 | "indicated\_b\_above\_normal\_level\_of", "indicated\_by\_below_normal\_level\_of\_(Compound)" |
+| Condidion | nodes from DOID    |     403 |  182914 | "diagnostic\_for", "indicates\_risk\_of\_developing", "prognostic\_for"                      |
+| Gene      | nodes from NCBI    |       1 |       1 | "indicated\_by\_below\_normal\_level\_of\_(Gene)"                                         |
+| Role      | nodes from OBCI    |       4 |  135536 | "has\_best\_classification"                                                           |
+| Variant   | nodes from DBSNP   |  133709 |  133710 | "indicated\_by\_presence\_of"                                                          |
 
 ## Tutorials
 
