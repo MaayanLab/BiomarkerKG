@@ -9,7 +9,7 @@ WIP
 ### Biological Entities Included in Biomarker-KG
 | Entity    | Description        |   Nodes |   Edges |                                      Relations|
 |:----------|:-------------------|--------:|--------:|----------------------------------------------------------------------------------:|
-| Anatomy   | nodes from UBERON  |       8 |     115 | "determined_using_sample_from"                                                      |
+| Anatomy   | nodes from UBERON  |       8 |     115 | "determined\_using\_sample\_from"                                                      |
 | Compound  | nodes from PUBCHEM |      49 |      49 | "indicated_by_above_normal_level_of", "indicated_by_below_normal_level_of_(Compound)" |
 | Condidion | nodes from DOID    |     403 |  182914 | "diagnostic_for", "indicates_risk_of_developing", "prognostic_for"                      |
 | Gene      | nodes from NCBI    |       1 |       1 | "indicated_by_below_normal_level_of_(Gene)"                                         |
