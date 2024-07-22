@@ -30,13 +30,6 @@
             "size": "5 KB"
         },
         {
-            "node_type": "Gene",
-            "description": "Nodes from NCBI",
-            "nodes": 1,
-            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Gene.nodes.zip",
-            "size": "242 bytes"
-        },
-        {
             "node_type": "Role",
             "description": "Nodes from OBCI",
             "nodes": 4,
@@ -62,7 +55,7 @@
         },
         {
             "source": "Biomarker",
-            "relation": "indicated_by_above_normal_level_of, indicated_by_below_normal_level_of_(Compound)",
+            "relation": "indicated_by_above_normal_level_of, indicated_by_below_normal_level_of",
             "target": "Compound",
             "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Compound.edges.zip",
             "size": "1 KB",
@@ -75,14 +68,6 @@
             "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Condition.edges.zip",
             "size": "589 KB",
             "edges": 182914
-        },
-        {
-            "source": "Biomarker",
-            "relation": "indicated_by_below_normal_level_of_(Gene)",
-            "target": "Gene",
-            "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Gene.edges.zip",
-            "size": "397 KB",
-            "edges": 1
         },
         {
             "source": "Biomarker",
