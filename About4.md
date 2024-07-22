@@ -11,7 +11,7 @@ WIP
 |:----------|:-------------------|----------:|----------:|------------------------------------------------------------------------------------:|
 | Anatomy   | nodes from UBERON  |       8 |     115 | "determined using sample from"                                                      |
 | Compound  | nodes from PUBCHEM |      49 |      49 | "indicated by above normal level of", "indicated by below normal level of (Compound)" |
-| Condidion | nodes from DOID    |     403 |  182914 | "diagnostic for", "indicates risk of developing", "prognostic for"                      |                                         |
+| Condidion | nodes from DOID    |     403 |  182914 | "diagnostic for", "indicates risk of developing", "prognostic for"                      |
 | Role      | nodes from OBCI    |       4 |  135536 | "has best classification"                                                           |
 | Variant   | nodes from DBSNP   |  133709 |  133710 | "indicated by presence of"                                                          |
 
