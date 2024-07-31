@@ -1,0 +1,4 @@
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /var/lib/neo4j/plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Fetching versions.json for Plugin 'n10s' from https://neo4j-labs.github.io/neosemantics/versions.json
+Applying default values for plugin n10s to neo4j.conf
