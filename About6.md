@@ -18,7 +18,7 @@
 Generating a subnetwork with one-term search requires the input of a starting entity. In the dropdown boxes on the panel on the left titled "Start with", you can first select the entity type you would like to look up and whether you would like to search by id or label. Then you will need to enter the ID or label underneath. 
 
 For example, if we want to search up a biomarker and we know the label, we can select "Biomarker" in the first dropdown box and select "label". Then we can enter the biomarker's label and the following subnetwork will be generated automatically!
- of rs881844 in ERBB2" is related to 
+
 
 ##### 1.2 Refining the search by relation
 ![Refine by Dropdown](https://s3.amazonaws.com/maayan-kg/biomarker-kg/assets/refine_by_risk.png)
