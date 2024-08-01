@@ -28,7 +28,7 @@ With BKG Explorer, you can refine your results in various ways. In the picture a
 ##### 1.3 Refining the search by target node type
 ![Refine by Icon](https://s3.amazonaws.com/maayan-kg/biomarker-kg/assets/refine_by_icon_new.png)
 
-You can also limit the subnetwork's results by specifying a target node type! You can do this by clicking on one of the node icons at the top of the page. In the picture above, we clicked the "Condition" icon to generate the subnetwork with edges specifically from biomarkers to conditions. This subnetwork shows the various conditions that the biomarker either indicates risk for or is prognostic for, depending on the edge label.
+You can also limit the subnetwork's results by specifying a target node type! You can do this by clicking on one of the node icons at the top of the page. In the picture above, we clicked the "Anatomy" icon to generate the subnetwork with edges specifically from biomarkers to anatomy entities. This subnetwork shows that the searched biomarker was collected from a blood sample.
 
 ##### 1.4 Changing the subnetwork display
 ![Change Display](https://s3.amazonaws.com/maayan-kg/biomarker-kg/assets/change_display.png)
