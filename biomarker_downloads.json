@@ -3,28 +3,28 @@
 
         {
             "node_type": "Anatomy",
-            "description": "Nodes from UBERON",
+            "description": "Nodes from Uber-Anatomy Ontology",
             "nodes": 8,
             "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Anatomy.nodes.zip",
             "size": "332 bytes"
         },
         {
             "node_type": "Biomarker",
-            "description": "Nodes from BIOMARKER",
+            "description": "Nodes from GlyGen Biomarker Database",
             "nodes": 135338,
             "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Biomarker.nodes.zip",
             "size": "1.2 MB"
         },
         {
             "node_type": "Compound",
-            "description": "Nodes from PUBCHEM",
+            "description": "Nodes from PubChem Database",
             "nodes": 49,
             "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Compound.nodes.zip",
             "size": "871 bytes"
         },
         {
             "node_type": "Condition",
-            "description": "Nodes from DOID",
+            "description": "Nodes from Human Disease Ontology",
             "nodes": 403,
             "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Condition.nodes.zip",
             "size": "5 KB"
@@ -38,7 +38,7 @@
         },
         {
             "node_type": "Variant",
-            "description": "Nodes from DBSNP",
+            "description": "Nodes from dbSNP",
             "nodes": 133709,
             "url": "https://s3.amazonaws.com/maayan-kg/biomarker-kg/Variant.nodes.zip",
             "size": "765 bytes"
